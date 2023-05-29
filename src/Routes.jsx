@@ -4,7 +4,7 @@ import { HomePage } from './pages/Home/index';
  
 export const RouterPages = () => {
   return (
-      <Routes>
+      <Routes> 
         <Route path="/" element={<HomePage />} />
         <Route path="/completeOrder" element={<CompleteOrderPage />} />
       </Routes>
