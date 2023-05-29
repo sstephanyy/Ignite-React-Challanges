@@ -10,5 +10,17 @@ export const GlobalStyle = createGlobalStyle`
   }
   body{
     background: ${defaultTheme.colors['base-background']};
+    color: ${defaultTheme.colors['base-text']};
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body, input, textarea, button{
+    font-family: ${defaultTheme.fonts['regular']};
+    font-weight: 400;
+    font-size: ${defaultTheme.textSizes['text-regular-m']}
+  }
+
+  a{
+    text-decoration: none;
   }
 `;
