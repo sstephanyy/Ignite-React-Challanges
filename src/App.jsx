@@ -4,7 +4,6 @@ import extendedTheme from './types/styled.d';
 import { RouterPages } from './Routes';
 import { BrowserRouter } from 'react-router-dom';
 
-
 function App() {
 
   return (
@@ -14,7 +13,7 @@ function App() {
       <BrowserRouter>
         <RouterPages/>
       </BrowserRouter>
-      
+
     </ThemeProvider>
   );
 }
