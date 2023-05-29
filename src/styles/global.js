@@ -9,6 +9,6 @@ export const GlobalStyle = createGlobalStyle`
     outline: none;
   }
   body{
-    background: ${defaultTheme.colors['brand-purple-dark']};
+    background: ${defaultTheme.colors['base-background']};
   }
 `;
