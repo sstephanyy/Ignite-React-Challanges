@@ -22,7 +22,7 @@ export const ButtonsContainer = styled.div`
   gap: 0.75rem;
 `;
 
-export const HeaderButton = styed.div`
+export const HeaderButton = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
