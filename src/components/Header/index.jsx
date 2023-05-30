@@ -1,18 +1,20 @@
-import { ButtonsContainer, HeaderButton, HeaderContainer } from "../Header/styles";
-import coffeeLogo from "../../assets/coffeeLogo.svg";
+import {
+  ButtonsContainer,
+  HeaderButton,
+  HeaderContainer,
+} from '../Header/styles';
+import coffeeLogo from '../../assets/coffeeLogo.svg';
+import { MapPin, ShoppingCart } from 'phosphor-react';
 
-export function Header () {
-
-  return(
+export function Header() {
+  return (
     <HeaderContainer>
       <div className="container">
-        <img src={coffeeLogo} alt="Logo do Café"/>
+        <img src={coffeeLogo} alt="Logo do Café" />
         <ButtonsContainer>
-          <HeaderButton>
-            
-          </HeaderButton>
+          <HeaderButton></HeaderButton>
         </ButtonsContainer>
       </div>
     </HeaderContainer>
-  )
+  );
 }
