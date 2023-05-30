@@ -1,10 +1,6 @@
-import {
-  ButtonsContainer,
-  HeaderButton,
-  HeaderContainer,
-} from '../Header/styles';
+import {ButtonsContainer, HeaderButton, HeaderContainer} from '../Header/styles';
 import coffeeLogo from '../../assets/coffeeLogo.svg';
-import { MapPin, ShoppingCart } from 'phosphor-react';
+//import { MapPin, ShoppingCart } from 'phosphor-react';
 
 export function Header() {
   return (
