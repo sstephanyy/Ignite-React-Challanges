@@ -5,7 +5,7 @@ export function Header () {
 
   return(
     <HeaderContainer>
-      <div>
+      <div className="container">
         <img src={coffeeLogo} alt="Logo do Café"/>
       </div>
     </HeaderContainer>
