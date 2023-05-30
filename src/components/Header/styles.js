@@ -15,3 +15,21 @@ export const HeaderContainer = styled.div`
     align-items: center;
   }
 `;
+
+export const ButtonsContainer = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+`;
+
+export const HeaderButton = styed.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 6px;
+  border: none;
+  padding: 0 0.5rem;
+  position: relative;
+`
