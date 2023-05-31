@@ -1,5 +1,6 @@
 import {ButtonsContainer, HeaderButton, HeaderContainer} from '../Header/styles';
 import coffeeLogo from '../../assets/coffeeLogo.svg';
+import { IconMap } from '@tabler/icons-react';
 //import { MapPin, ShoppingCart } from 'phosphor-react';
 
 export function Header() {
@@ -8,7 +9,11 @@ export function Header() {
       <div className="container">
         <img src={coffeeLogo} alt="Logo do Café" />
         <ButtonsContainer>
-          <HeaderButton></HeaderButton>
+          <HeaderButton>
+          
+          Porto Alegre, RS
+          <IconMap/>
+          </HeaderButton>
         </ButtonsContainer>
       </div>
     </HeaderContainer>
