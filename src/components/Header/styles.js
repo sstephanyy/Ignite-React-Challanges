@@ -22,9 +22,10 @@ export const ButtonsContainer = styled.div`
   gap: 0.75rem;
 `;
 
-
+// .attrs method is for passing props to a styled component
 export const HeaderButton = styled.button.attrs((props) => ({
   background: props.background || defaultTheme.colors['brand-purple-light'],
+  // background of the buttons will now have the color purple as DEFAULT
   color: props.color || defaultTheme.colors['brand-purple-dark'],
 }))`
   display: flex;
