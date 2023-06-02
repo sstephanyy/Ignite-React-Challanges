@@ -16,7 +16,7 @@ export function Header() {
             Porto Alegre, RS
           </HeaderButton>
 
-          <HeaderButton background={defaultTheme.colors['brand-yellow-dark']}>
+          <HeaderButton background={defaultTheme.colors['brand-yellow-light']} color={defaultTheme.colors['brand-yellow-dark']}>
             <IconShoppingCart size={20} weight="fill" />
           </HeaderButton>
 

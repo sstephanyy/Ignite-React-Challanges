@@ -23,7 +23,10 @@ export const ButtonsContainer = styled.div`
 `;
 
 
-export const HeaderButton = styled.button`
+export const HeaderButton = styled.button.attrs((props) => ({
+  background: props.background || defaultTheme.colors['brand-purple-light'],
+  color: props.color || defaultTheme.colors['brand-purple-dark'],
+}))`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +38,7 @@ export const HeaderButton = styled.button`
   position: relative;
   gap: 4px;
   font-size: ${defaultTheme.textSizes['text-regular-s']};
-  background: ${defaultTheme.colors['brand-purple-light']};
-  color: ${defaultTheme.colors['brand-purple-dark']};
+  background: ${(props) => props.background};
+  color: ${(props) => props.color};
 
 `
