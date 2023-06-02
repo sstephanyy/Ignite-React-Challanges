@@ -1,6 +1,6 @@
 import {ButtonsContainer, HeaderButton, HeaderContainer} from '../Header/styles';
 import coffeeLogo from '../../assets/coffeeLogo.svg';
-import { IconMap } from '@tabler/icons-react';
+import { IconMapPin } from '@tabler/icons-react';
 //import { MapPin, ShoppingCart } from 'phosphor-react';
 
 export function Header() {
@@ -12,7 +12,7 @@ export function Header() {
           <HeaderButton>
           
           Porto Alegre, RS
-          <IconMap/>
+          <IconMapPin size={20} weight="fill"/>
           </HeaderButton>
         </ButtonsContainer>
       </div>
