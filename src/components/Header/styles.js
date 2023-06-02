@@ -35,6 +35,7 @@ export const HeaderButton = styled.button`
   position: relative;
   gap: 4px;
   font-size: ${defaultTheme.textSizes['text-regular-s']};
-  background: ${props => props.background || defaultTheme.colors['brand-purple-light']};
+  background: ${defaultTheme.colors['brand-purple-light']};
   color: ${defaultTheme.colors['brand-purple-dark']};
+
 `

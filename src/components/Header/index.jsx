@@ -12,12 +12,12 @@ export function Header() {
         <ButtonsContainer>
 
           <HeaderButton>
-          <IconMapPin size={20} weight="fill"/>
-          Porto Alegre, RS
+            <IconMapPin size={20} weight="fill"/>
+            Porto Alegre, RS
           </HeaderButton>
 
-          <HeaderButton>
-            <IconShoppingCart size={20} weight="fill" color={defaultTheme.colors['brand-yellow-dark']} />
+          <HeaderButton background={defaultTheme.colors['brand-yellow-dark']}>
+            <IconShoppingCart size={20} weight="fill" />
           </HeaderButton>
 
         </ButtonsContainer>
