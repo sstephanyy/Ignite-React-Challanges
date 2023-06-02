@@ -22,7 +22,8 @@ export const ButtonsContainer = styled.div`
   gap: 0.75rem;
 `;
 
-export const HeaderButton = styled.div`
+
+export const HeaderButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,4 +33,7 @@ export const HeaderButton = styled.div`
   border: none;
   padding: 0 0.5rem;
   position: relative;
+  gap: 4px;
+  font-size: ${defaultTheme.textSizes['text-regular-s']};
+  background: ${defaultTheme.colors['brand-purple-light']}
 `
